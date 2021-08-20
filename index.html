@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Prompt', sans-serif;
+            color: white;
+            background: #202731;
+            overflow-x: hidden;
+        }
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 400px;
+            padding-top: 100px;
+        }
+
+        .blue {
+            background: #3c31dd;
+        }
+
+        .red {
+            background: #dd3f31;
+        }
+
+        .pink {
+            background: #ff0066;
+            overflow: hidden;
+        }
+
+        .dark {
+            background: #0f0f10;
+        }
+
+        /* ----------------------- */
+        .custom-shape-divider-top-1629456270 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .custom-shape-divider-top-1629456270 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 202px;
+        }
+
+        .custom-shape-divider-top-1629456270 .shape-fill {
+            fill: #3c31dd;
+        }
+
+
+
+        .custom-shape-divider-top-1629456652 {
+            position: absolute;
+            top: -1px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-top-1629456652 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 401px;
+        }
+
+        .custom-shape-divider-top-1629456652 .shape-fill {
+            fill: #202731;
+        }
+
+
+        .custom-shape-divider-top-1629456854 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .custom-shape-divider-top-1629456854 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 174px;
+            transform: rotateY(180deg);
+        }
+
+        .custom-shape-divider-top-1629456854 .shape-fill {
+            fill: #0f0f10;
+        }
+
+
+        .layer1 {
+            background-image: url('./layer1.svg');
+        }
+
+        .layer2 {
+            background-image: url('./layer2.svg');
+        }
+
+        .flip {
+            transform: rotate(180deg);
+        }
+
+        .spacer {
+            aspect-ratio: 960/300;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
+<body>
+    <section class="blue">
+        <h1>Nice Curves</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section>
+        <div class="custom-shape-divider-top-1629456270">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <h1>Nice Curves</h1>
+        <p>Reprehenderit, ipsum pariatur. Fuga blanditiis iure accusantium aperiam.</p>
+    </section>
+    <section class="dark">
+        <div class="custom-shape-divider-top-1629456652">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <h1>Nice Curves</h1>
+        <p>Quae, quod sint culpa magnam dolor tempore earum.</p>
+    </section>
+    <section class="dark">
+        <h1>Nice Curves</h1>
+        <p>Eos aperiam ducimus totam rerum cum placeat est.</p>
+    </section>
+    <section class="red">
+        <h1>Nice Curves</h1>
+        <p>Ex nobis quis, molestiae praesentium fugit harum vitae!</p>
+        <div class="custom-shape-divider-top-1629456854">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <div class="spacer layer1"></div>
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Omnis vero aspernatur obcaecati fugiat excepturi laborum ea.</p>
+        <div class="spacer layer2 flip"></div>
+    </section>
+    <section class="pink">
+        <h1>Nice Curves</h1>
+        <p>Dolor fugiat nihil eaque mollitia blanditiis aut. Laudantium.</p>
+
+        <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+            <!-- <rect x="0" y="0" width="900" height="600" fill="#FF0066"></rect> -->
+            <!-- needs to be deleted -->
+            <g transform="translate(426.109508815942 294.77397844154484)">
+                <path id="blob1"
+                    d="M120.7 -110.2C170.7 -70.7 235.4 -35.4 235.6 0.2C235.8 35.8 171.7 71.7 121.7 113.5C71.7 155.3 35.8 203.2 -3.4 206.6C-42.7 210 -85.3 169 -121.8 127.2C-158.3 85.3 -188.7 42.7 -187.8 0.8C-187 -41 -155 -82 -118.5 -121.5C-82 -161 -41 -199 -2.8 -196.2C35.4 -193.4 70.7 -149.7 120.7 -110.2"
+                    fill="#BB004B"></path>
+            </g>
+            <g transform="translate(454.7826338428602 270.80932502614206)">
+                <path id="blob2"
+                    d="M149.5 -134.8C189.2 -109.8 213.6 -54.9 221.5 7.9C229.4 70.7 220.8 141.4 181.1 184.6C141.4 227.8 70.7 243.4 13.1 230.3C-44.5 217.2 -89.1 175.4 -132.3 132.3C-175.4 89.1 -217.2 44.5 -229.7 -12.5C-242.2 -69.5 -225.4 -139.1 -182.2 -164.1C-139.1 -189.1 -69.5 -169.5 -7.3 -162.2C54.9 -154.9 109.8 -159.8 149.5 -134.8"
+                    fill="#BB004B" style="visibility:hidden"></path>
+            </g>
+        </svg>
+
+    </section>
+    <div class="spacer layer2"></div>
+
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Ea minima nobis aut voluptatibus molestias provident perferendis.</p>
+    </section>
+
+    <script>
+        const tween = KUTE.fromTo(
+            '#blob1',
+            { path: '#blob1' },
+            { path: '#blob2' },
+            { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tween.start();
+    </script>
+</body>
+
+</html>
